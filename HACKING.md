@@ -9,33 +9,15 @@ Dependencies
     * ConsoleKit 0.2.3
     * gnome-vfs (for file monitoring in greeter)
 
-Getting From SVN
-
-To get the very latest copy you'll need to pull it from SVN. Here's
-how you'll do it.
-
-svn co http://svn.gnome.org/svn/gdm/trunk gdm
-
-
-Browse the code in SVN: http://svn.gnome.org/viewcvs/gdm/trunk/
+Submit changes in a fork and pull request them to the mate-1.26 branch.
 
 Making Changes
 ==============
 
- * Patches must be submitted in unified diff form.  Using the "-p"
-   option is strongly preferred.
-
-   See:
-   http://www.xenomai.org/index.php/Teaching_-p_to_svn_diff
-
- * All but the most trivial patches must be submitted to GNOME
-   bugzilla or the GDM mailing list <gdm-list@gnome.org> for approval.
-
- * Patches must apply cleanly to SVN trunk.
 
  * Patches should not introduce additional compilation warnings.
 
- * Patches must use the GDM Coding Style.
+ * Patches must use the MDM Coding Style.
 
 
 Coding Style
